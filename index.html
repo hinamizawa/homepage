@@ -1,47 +1,302 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-        }
+<!doctype html>
+<html lang="en">
 
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 20px;
-        }
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        main {
-            padding: 20px;
-        }
-    </style>
-</head>
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Junyu Lu</title>
+    </head>
 
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Welcome to My GitHub Pages Homepage</p>
-    </header>
+    <body data-spy="scroll" data-target="#navbarSupportedContent">
+        <!-- home -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#"><img src="um.png" width="60px"></a>
+            <button class="navbar-toggler ml-auto" type="button"
+                data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Junyu Lu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teaching">Teaching</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"
+                            id="navbarDropdown" role="button"
+                            data-toggle="dropdown">Teaching</a>
+                        <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="math2170.html">MATH
+                                2170</a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv.pdf">CV</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <main>
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
+        <div id="home" class="container" style="margin-top: 80px">
+            <h1 class="display-4">Junyu Lu</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-body" style="width: 29rem;">
+                        <h5 class="card-title">Ph.D. Candidate</h5>
+                        <p class="card-text" style="color: black"><a
+                                href="https://umanitoba.ca/science/mathematics">Department
+                                of Mathematics</a><br>
+                            University of Manitoba<br>
+                            186 Dysart Road, Winnipeg, MB, R3T 2N2 Canada
+                        </p>
+                        <h5 class="card-title">Supervisor</h5>
+                        <p class="card-text" style="color: black"><a
+                                href="https://adamjclay.github.io/index.html">Adam
+                                Clay</a><br>
+                        </p>
+                        <h5 class="card-title">Contact</h5>
+                        <p class="card-text">
+                            Office: 444 Machray Hall<br>
+                            Email: luj9 at myumanitoba.ca<br>
+                        </p>
+                        <!-- <p> Name Pronunciation: </p> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="ocr.jpg" width="600px"
+                        style="margin-left: 20px; margin-top: 28px;">
+                </div>
+            </div>
+        </div>
 
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <!-- Add more project links as needed -->
-        </ul>
-    </main>
-</body>
+        <!-- <div id="research" style="height: 50px">
+        </div> -->
+        <div class="container" style="margin-top: 20px">
+            <h3>Research interest: </h3>
+            <ul style="list-style-type: none">
+                <li><a
+                        href="https://en.wikipedia.org/wiki/Low-dimensional_topology">Low-dimensional
+                        topology</a></li>
+            </ul>
+            <ul style="list-style-type: none">
+                <li><a
+                        href="https://en.wikipedia.org/wiki/Linearly_ordered_group">Left-orderable
+                        Groups</a></li>
+            </ul>
+        </div>
+
+        <!-- <h3>Publications and preprints:</h3>
+            <div>
+                <ul>
+                    <li style="margin: 5px 0;">(with <a
+                            href="https://www.cirget.uqam.ca/boyer/">S.
+                            Boyer</a>
+                        and <a
+                            href="https://cns.utexas.edu/directory/item/353-gordon-cameron-m?Itemid=349">C.
+                            Gordon</a>) <span style="font-weight: 400"> <a
+                                href="https://arxiv.org/abs/2307.06815">JSJ
+                                decompositions of knot exteriors, Dehn
+                                surgery
+                                and the L-space conjecture</a></span>, 25
+                        pgs,
+                        2023.
+                        <li style="margin: 5px 0;">(with S. Boyer and C.
+                            Gordon)
+                            <span style="font-weight: 400"> <a
+                                    href="https://arxiv.org/abs/2306.10357">Recalibrating
+                                    R-order trees and
+                                    Homeo_+(S^1)-representations of link
+                                    groups</a></span>,
+                            43 pgs, 2023.
+                        </li>
+
+                        <li style="margin: 5px 0;">(with <a class="less"
+                                href="https://www.cirget.uqam.ca/boyer/">S.
+                                Boyer</a> and <a class="less"
+                                href="https://cns.utexas.edu/directory/item/353-gordon-cameron-m?Itemid=349">C.
+                                Gordon</a>) <span
+                                style="font-weight: 400"> <a
+                                    href="https://arxiv.org/abs/2106.14378">Slope
+                                    detection and toroidal 3-manifolds</a></span>,
+                            60 pgs, 2021. </li>
+                        <ul>
+                            <li style="margin: 5px 0;"> Here is the <a
+                                    href="slope_detection_talk_note_CMS.pdf">slide</a>
+                                of the talk I gave at the CMS summer
+                                meeting.
+                                Some of the results in the paper are
+                                discussed
+                                there.
+                            </li>
+                        </ul>
+                        <li style="margin: 5px 0;"><span
+                                style="font-weight: 400">(with <a
+                                    href="https://sites.google.com/bc.edu/john-baldwin/home">J.
+                                    Baldwin</a> and <a
+                                    href="http://wwwf.imperial.ac.uk/~ssivek/">S.
+                                    Sivek</a>) <a
+                                    href="https://arxiv.org/abs/2105.12102">Khovanov
+                                    homology and the cinquefoil</a></span>,
+                            21
+                            pgs, <br>
+                            <em>Journal of the European Mathematical Society</em>,
+                            to appear.
+                        </li>
+
+                        <li style="margin: 5px 0;"><span
+                                style="font-weight: 400"> <a
+                                    href="https://arxiv.org/abs/1912.01645">Euler
+                                    class of taut foliations and Dehn
+                                    filling</a></span>,
+                            25 pgs, <br>
+                            <em>Communications in Analysis and Geometry</em>,
+                            to
+                            appear. <br>
+                            <ul>
+                                <li style="margin: 5px 0;"> I gave a talk at
+                                    the
+                                    <a class="less"
+                                        href="https://homepages.warwick.ac.uk/~masgar/Seminar/current_seminar.html">GaTO
+                                        seminar</a> based on the results of
+                                    this
+                                    paper. Here is the <a
+                                        href="GaT_online_annotated.pdf">note</a>
+                                    of my talk.
+
+                                </li>
+                                <li style="margin: 5px 0; max-width: 600pt">
+                                    Given a rational homology solid torus X
+                                    whose longitude is null-homologous,
+                                    program
+                                    <a href="slope.c">slope.c</a> determines
+                                    whether a taut foliation on X(p/q) that
+                                    is
+                                    transverse to the core of the filling
+                                    solid
+                                    torus can have zero
+                                    Euler class. In the case that it is
+                                    possible
+                                    for the Euler class to vanish, the
+                                    required
+                                    values of the relative Euler class are
+                                    also
+                                    calculated. To run the program, type
+                                    &nbsp;
+                                    <span class="text-monospace"
+                                        style="font-size: 12px">gcc
+                                        slope.c -o slope; ./slope;</span> in
+                                    the
+                                    terminal.
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li style="margin: 5px 0;">(with <a class="less"
+                                href="https://www.cirget.uqam.ca/boyer/">S.
+                                Boyer</a>) <span style="font-weight: 400">
+                                <a
+                                    href="https://arxiv.org/abs/1711.04578v3">
+                                    Taut foliations in branched cyclic
+                                    covers
+                                    and left-orderable
+                                    groups</a>, 37pgs, </span> <br>
+                            <em>Transactions of the American Mathematical
+                                Society</em>, 372 (2019), no. 11, 7921 -
+                            7957.
+                            &nbsp; <a
+                                href="https://www.ams.org/journals/tran/2019-372-11/S0002-9947-2019-07833-9/">
+                                Journal link </a>
+                        </li>
+                        <li style="margin: 5px 0;"><span
+                                style="font-weight: 400"> <a
+                                    href="https://arxiv.org/abs/1311.3291">Left-orderability
+                                    and cyclic branched coverings</a>, 15
+                                pgs,
+                            </span><br>
+                            <em>Algebraic & Geometric Topology</em>, 15
+                            (2015),
+                            no. 1, 399-413. &nbsp; <a
+                                href="https://msp.org/agt/2015/15-1/p12.xhtml">Journal
+                                link</a> &nbsp;
+                        </li>
+                    </ul>
+                </div> -->
+
+        <!-- teaching -->
+        <div class="container">
+            <h3 style="padding-bottom: 10px">Teaching</h3>
+            <ul>
+                <h5 class="card-title">Winter 2024</h5>
+                <p class="card-text">
+                    Instructor: MATH 2180 Introduction to Number Theory
+                </p>
+            </ul>
+            <ul>
+                <h5 class="card-title">Winter 2024</h5>
+                <p class="card-text">
+                    Tutor: MATH 1500, MATH 1524, MATH 1240, MATH 2080, MATH 2090
+                </p>
+            </ul>
+        </div>
+
+        <br><br>
+
+        <div id="teaching" class="container">
+            <h3 style="padding-bottom: 10px">Past
+                courses</h3>
+            <ul>
+                <h5 class="card-title">Instructor</h5>
+                <p class="card-text">
+                    MATH 1500 Introduction to Calculus 1 (Winter 2023)
+                </p>
+                <h5 class="card-title">Tutor</h5>
+                <p class="card-text">
+                    MATH 1500, MATH 1524, MATH 1240, MATH 2040, MATH MATH
+                    2080, MATH 2090, MATH 2720
+                </p>
+            </ul>
+            <br>
+        </div>
+        <!-- teaching end-->
+
+        <!-- footer -->
+        <footer>
+            <p
+                class="text-center font-weight-light footnote">&copy;
+                2023 <a class="footnote_anchor"
+                    href="index.html">Junyu Lu</a>
+            </p>
+        </footer>
+        <!-- footer end-->
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+    </body>
 
 </html>
